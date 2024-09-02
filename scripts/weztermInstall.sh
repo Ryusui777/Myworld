@@ -25,9 +25,6 @@ case $DISTRO in
   fedora)
     sudo dnf install -y https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/wezterm-20240203_110809_5046fc22-1.fedora39.x86_64.rpm
     ;;
-  arch)
-    sudo pacman -Syu package-name
-    ;;
   redhat)
     sudo yum install -y https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/wezterm-20240203_110809_5046fc22-1.fedora39.x86_64.rpm
     ;;
