@@ -21,12 +21,12 @@ cp -r starship ~/.config/starship
 # puts starship in bashrc
 echo "Starship configuration" >> ~/.bashrc
 echo "export STARSHIP_CONFIG=~/.config/starship/starship.toml" >> ~/.bashrc
-echo 'eval "$(starship init bash)' >> ~/.bashrc
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 # copies .wezterm.lua 
-cp -r wezterm ~/wezterm
+cp .wezterm.lua ~/
 
-./scripts/wezterm.sh
+sudo dnf install -y https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/wezterm-20240203_110809_5046fc22-1.fedora39.x86_64.rpm
 
 
 echo "myWorld started!"
